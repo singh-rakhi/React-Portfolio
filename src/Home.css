@@ -1,0 +1,81 @@
+.Home {
+    display: flex;
+    /* justify-content: space-around; */
+     align-items: center; 
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background color */
+    height: 40rem;
+    width: 100vw;
+
+  }
+  
+  .left {
+    max-width: 50%;
+    height: 10 rem;
+    text-align: left;
+  }
+  
+  .para {
+    margin-bottom: 10px;
+  }
+  
+  .herosectionh1 {
+    margin-bottom: 20px;
+  }
+  S
+  .herosectionh1 h1 {
+    font-size: 3rem;
+    color: #333; /* Text color */
+  }
+  
+  .herosectionh1 span {
+    color: #f39c12; /* Highlight color */
+  }
+  
+  .stack {
+    margin-bottom: 30px;
+  }
+  
+  .stack h1 {
+    font-size: 2rem;
+    color: #555; /* Subtle text color */
+  }
+  
+  .para2 {
+    color: #666; /* Lighter text color */
+    line-height: 1.6;
+  }
+  
+   /* .right {
+    height: 10rem;
+width: 50vw; 
+  } */
+   
+   .right img {
+    max-width: 50%;
+    height: auto;
+    
+    border-radius: 10px; /* Rounded corners for the image */
+    background-color: transparent; /* Ensure no background color */
+   
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px 10px;
+    }
+  
+    .left, .right {
+      padding: 0; /* Remove padding between columns on smaller screens */
+    }
+  
+    .herosectionh1 h1 {
+      font-size: 2.5rem;
+    }
+  
+    .stack h1 {
+      font-size: 1.5rem;
+    }
+  }

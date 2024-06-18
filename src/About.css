@@ -1,0 +1,57 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .headingabout h1 {
+    font-size: 3rem;
+    color: #333; /* Text color */
+    text-align: center;
+  }
+  
+  .headingh3about h3 {
+    font-size: 1.5rem;
+    color: #666; /* Subtle text color */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .paraabout, .para1about {
+    margin-top: 30px;
+    color: #666; /* Lighter text color */
+    line-height: 1.6;
+  }
+  
+  .btnabout {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .btnabout1 {
+    padding: 15px 30px;
+    background-color: #f39c12; /* Match the navbar highlight color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnabout1:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      padding: 30px 10px;
+    }
+  
+    .headingabout h1 {
+      font-size: 2.5rem;
+    }
+  
+    .headingh3about h3 {
+      font-size: 1.2rem;
+    }
+  }

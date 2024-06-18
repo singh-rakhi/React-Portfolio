@@ -1,0 +1,60 @@
+.project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .headingprojects h1 {
+    font-size: 3rem;
+    color: #333; /* Text color */
+  }
+  
+  .projects1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box1 {
+    flex: 1; /* Equal width columns */
+    padding: 20px;
+    max-width: 300px; /* Maximum width for project boxes */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease;
+  }
+  
+  /* .box1:hover {
+    transform: translateY(-5px); /* Lift on hover */
+   */
+  
+  .headingPortfolio, .headingTodo {
+    margin-bottom: 15px;
+  }
+  
+  .portfolioimg, .todoimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .project {
+      padding: 30px 10px;
+    }
+  
+    .headingprojects h1 {
+      font-size: 2.5rem;
+    }
+  
+    .projects1 {
+      flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
+  
+    .box1 {
+      margin-bottom: 20px;
+    }
+  }
